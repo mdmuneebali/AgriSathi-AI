@@ -1,0 +1,27 @@
+{
+    "project": "AgriSathi AI",
+    "architecture": "MobileNetV2",
+    "input_size": [
+        224,
+        224
+    ],
+    "input_channels": 3,
+    "input_color": "RGB",
+    "input_pixel_range": [
+        0,
+        1
+    ],
+    "classes": {
+        "0": "Bacterial Blight",
+        "1": "Blast",
+        "2": "Brown Spot",
+        "3": "Tungro"
+    },
+    "dataset_original": 5932,
+    "dataset_unique": 4794,
+    "train_samples": 3355,
+    "validation_samples": 719,
+    "test_samples": 720,
+    "test_accuracy": 0.9944444444444445,
+    "test_loss": 0.03600136563181877
+}
